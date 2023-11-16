@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=========  flaction ================-->
+      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+      <!-- Inside the <head> section -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+            <!--=========  swiper css ================-->
+       <link  <!--=============== HEADER ===============-->
+       <header class="header">
+        <div class="header-top">
+            <div class="header-container container">
+                <div class="header-contact">
+                    <span>(+212) - 7677 - 89335</span>
+
+                    <span>Our Location</span>
+                </div>
+                 
+
+               <p class="header-alert-news">
+                Super Value Deals - Save More With coupon code "Hamza"
+               </p>
+
+               <a href="login-registen.html" class="header-top-action">
+                Log In / Sign Up
+               </a>
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="index.html" class="nav-logo">
+                <img src="/img/logo2.png" alt="" class="nav-logo-img">
+            </a>
+            <div class="nav--menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link ">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link ">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="accounts.html" class="nav-link">My Account</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="compare.html" class="nav-link">Compare</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="login-registen.html" class="nav-link">Login</a>
+                    </li>
+                </ul>
+                <div class="header-search">
+                    <input type="text" placeholder="Search for items..." 
+                    class="form-input"
+                    />
+                    <button class="search-btn">
+                        <img src="/img/search.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="header-user-actions">
+                <a href="wishlist.html" class="header-action-btn">
+                   <img src="/img/icon-heart.svg" alt=""> 
+                   <span class="count">3</span>
+                </a>
+
+                <a href="cart.html" class="header-action-btn">
+                    <img src="/img/icon-cart.svg" alt=""> 
+                    <span class="count">3</span>
+                 </a>
+            </div>
+        </nav>
+       </header>
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/css's/style.css" />
+
+    <title>Document</title>
+</head>
+<body>   <!--============= main ================-->
+        <main class="main">
+     
+
+         <!--=============== BREADCRUMB ===============-->
+         <section class="breadcrumb">
+    <ul class="breadcrumb-list flex container">
+        <li><a href="index.html" class="breadcrumb-link">Home</a></li>
+        <li><span class="breadcrumb-link">></span></li>
+        <li><span class="breadcrumb-link">Shop</span></li>
+        <li ><span class="breadcrumb-link">></span></li>
+        <li><span class="breadcrumb-link">Wishlist</span></li>
+    </ul>
+         </section>
+          
+         <!--=============== wishlist ===============-->
+         <section class="wishlist section-lg container">
+            <div class="table-container">
+                <table class="table">
+                    <tr>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Stock Status</th>
+                        <th>Action</th>
+                        <th>Remove</th>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                           <img 
+                           src="/img/product-4-2.jpg" alt=""
+                            class="table-img"
+                            > 
+                        </td>
+    
+                        <td>
+                            <h3 class="table-title">J.Crew Mercantile Women's Short-Sleeve
+                            </h3>
+                            <p class="table-des">Lorem qqhduebdbevd wuhbdwd wdb weu dwihedwb wbd wewbdw e wdy webd e cumque eum 
+                               </p>
+                        </td>
+    
+                        <td><span class="table-price">$120</span></td>
+    
+                        <td><span class="table-stock">In Stock</span></td>
+    
+                        <td><a href="#" class="btn btn btn-sm" onclick="addToCart(this)">Add to cart</a></td>
+    
+                        <td><i class="fi fi-rs-trash table-trash" onclick="removeItem(this)"></i></td>                    </tr>
+    
+                    <tr>
+                        <td>
+                           <img 
+                           src="/img/product-6-1.jpg" alt=""
+                            class="table-img"
+                            > 
+                        </td>
+    
+                        <td>
+                            <h3 class="table-title">T-shirt nadi
+                            </h3>
+                            <p class="table-des">Lorem ipsum dolorcorrupti harum minima neque cumque eum 
+                                </p>
+                        </td>
+    
+                        <td><span class="table-price">$110</span></td>
+    
+                        <td><span class="table-stock">In Stock</span></td>
+    
+                        <td><a href="#" class="btn btn btn-sm" onclick="addToCart(this)">Add to cart</a></td>
+    
+                        <td><i class="fi fi-rs-trash table-trash" onclick="removeItem(this)"></i></td>                    </tr>
+    
+                    <tr>
+                        <td>
+                           <img 
+                           src="/img/product-11-1.jpg" alt=""
+                            class="table-img"
+                            > 
+                        </td>
+    
+                        <td>
+                            <h3 class="table-title">sazal dyal labnat
+                            </h3>
+                            <p class="table-des">
+                                libero excepturi nihil placeat impedit rem nulla animi voluptas?</p>
+                        </td>
+    
+                        <td><span class="table-price">$75</span></td>
+    
+                        <td><span class="table-stock">In Stock</span></td>
+    
+                        <td><a href="#" class="btn btn btn-sm" onclick="addToCart(this)">Add to cart</a></td>
+    
+                        <td><i class="fi fi-rs-trash table-trash" onclick="removeItem(this)"></i></td>                    </tr>
+                </table>
+            </div>
+         </section>
+        
+         <!--=============== NEWSLETTER ===============-->
+       
+         <section class="newsletter section">
+        <div class="newsletter-container container grid">
+            <h3 class="newsletter-title flex">
+                <img src="/img/icon-email.svg" alt="" 
+                class="newsletter-icon">
+                  Sign up to Newsletter
+            </h3>
+                <p class="newsletter-des">
+                   ...and receive $10 coupon for first shopping 
+                </p>
+                <form action="" class="newsletter-form">
+                    <input type="text" placeholder="Enter your email" 
+                    class="newsletter-input">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+        </div>
+         </section>
+
+         </main>
+
+         <!--=============== FOOTER ===============-->
+         <footer class="footer container">
+            <div class="footer-container grid">
+                <div class="footer-content">
+                    <a href="index.html" class="footer-logo">
+                        <img src="/img/logo2.png" alt="" class="footer-logo-img">
+                    </a>
+    
+                    <h4 class="footer-subtitle">Contact</h4>
+    
+                    <p class="footer-des">
+                        <span>Address:</span> 123-45 hay niggz No 565
+                    </p>
+    
+                    <p class="footer-des">
+                        <span>Phone:</span> (+212) - 7677 - 89335
+                    </p>
+    
+                    <p class="footer-des">
+                        <span>Hours:</span> kankhdmo dyamn mn 10.00 pm htal 12.00 am mohim marhba bikom f ay wa9t
+                    </p>
+    
+                    <p class="footer-des">
+                        <span>location:</span> we are currenctly in morocco
+                    </p>
+    
+                    <div class="footer-social">
+                        <h4 class="footer-subtitle">Follow Me</h4>
+    
+                        <div class="footer-social-links flex">
+                            <a href="">
+                                <img src="/img/icon-facebook.svg" alt="" class="footer-social-icon">
+                            </a>
+    
+                            <a href="">
+                                <img src="/img/icon-instagram.svg" alt="" class="footer-social-icon">
+                            </a>
+    
+                            <a href="">
+                                <img src="/img/icon-twitter.svg" alt="" class="footer-social-icon">
+                            </a>
+    
+                            <a href="">
+                                <img src="/img/icon-pinterest.svg" alt="" class="footer-social-icon">
+                            </a>
+    
+                            <a href="">
+                                <img src="/img/icon-youtube.svg" alt="" class="footer-social-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer-content">
+                    <h3 class="footer-title">Address</h3>
+    
+                    <ul class="footer-links">
+                        <li><a href="" class="footer-link">About Us</a></li>
+                        <li><a href="" class="footer-link">Delivery Information</a></li>
+                        <li><a href="" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="" class="footer-link">Terms & conditions</a></li>
+                        <li><a href="" class="footer-link">Contact Us</a></li>
+                        <li><a href="" class="footer-link">Support Center</a></li>
+    
+                    </ul>
+                </div>
+    
+                <div class="footer-content">
+                    <h3 class="footer-title">My Account</h3>
+    
+                    <ul class="footer-links">
+                        <li><a href="login-registen.html" class="footer-link">Sign In</a></li>
+                        <li><a href="cart.html" class="footer-link">view Cart</a></li>
+                        <li><a href="wishlist.html" class="footer-link">My Wishlist</a></li>
+                        <li><a href="" class="footer-link">Track My Order</a></li>
+                        <li><a href="" class="footer-link">Help</a></li>
+                        <li><a href="" class="footer-link">Order</a></li>
+    
+                    </ul>
+                </div>
+    
+                <div class="footer-content">
+                    <h3 class="footer-title">Secured Pyment Gateways</h3>
+    
+                    <img src="/img/payment-method.png" alt="" class="payment-img">
+                </div>
+            </div>
+    
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2023 Dixie. All rights reserved</p>
+                <span class="designer">Designed by Hamzalegend </span>
+            </div>
+          </footer>
+        
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="/js's/script.js"></script>
+</body>
+</html>
