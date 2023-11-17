@@ -623,11 +623,11 @@ h1,h2,h3,h4{
 
 
 .deals-item:nth-child(1){
-   background-image: url(/img/deals-1.jpg); 
+   background-image: url(../img/deals-1.jpg); 
 }
 
 .deals-item:nth-child(2){
-    background-image: url(/img/deals-2.png); 
+    background-image: url(../img/deals-2.png); 
  }
 
  .deals-item {
