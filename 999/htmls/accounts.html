@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--========= flaction ================-->
+   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+   <!-- Inside the <head> section -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+   <!--========= swiper css ================-->
+   <link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+   />
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="../css's/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+  <header class="header">
+    <div class="header-top">
+        <div class="header-container container">
+            <div class="header-contact">
+                <span>(+212) - 7677 - 89335</span>
+
+                <span>Our Location</span>
+            </div>
+             
+
+           <p class="header-alert-news">
+            Super Value Deals - Save More With coupon code "Hamza"
+           </p>
+
+           <a href="login-registen.html" class="header-top-action">
+            Log In / Sign Up
+           </a>
+        </div>
+    </div>
+
+    <nav class="nav container">
+        <a href="index.html" class="nav-logo">
+            <img src="../img/logo2.png" alt="" class="nav-logo-img">
+        </a>
+        <div class="nav--menu" id="nav-menu">
+            <div class="nav-menu-top">
+                <a href="index.html" class="nav-menu-logo">
+                    <img src="../img/logo2.png" alt="">
+                </a>
+
+                <div class="nav-close " id="nav-close" >
+                    <i class="fi fi-rs-cross-small"></i>
+                </div>
+            </div>
+
+
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link ">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link">Shop</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="accounts.html" class="nav-link active-link">My Account</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="compare.html" class="nav-link">Compare</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="login-registen.html" class="nav-link">Login</a>
+                </li>
+            </ul>
+            <div class="header-search">
+                <input type="text" placeholder="Search for items..." 
+                class="form-input"
+                />
+                <button class="search-btn">
+                    <img src="../img/search.png" alt="">
+                </button>
+            </div>
+        </div>
+        
+        <div class="header-user-actions">
+            <a href="wishlist.html" class="header-action-btn">
+               <img src="../img/icon-heart.svg" alt=""> 
+               <span class="count">3</span>
+            </a>
+
+            <a href="cart.html" class="header-action-btn">
+                <img src="../img/icon-cart.svg" alt=""> 
+                <span class="count">3</span>
+             </a>
+        </div>
+    </nav>
+   </header>
+   <!--=============== main ===============-->
+<main class="main">
+    <section class="breadcrumb">
+        <ul class="breadcrumb-list flex container">
+            <li><a href="index.html" class="breadcrumb-link">Home</a></li>
+            <li><span class="breadcrumb-link">></span></li>
+            <li><span class="breadcrumb-link">Account</span></li>
+        </ul>
+    </section>
+
+      <!--=============== Account ===============-->
+       <section class="accounts section-lg">
+        <div class="accounts-container container grid">
+            <div class="account-tabs">
+                <p class="account-tab active-tab" data-target="#dashboard">
+                    <i class="fi fi-rs-settings-sliders"></i> Dashboard
+                </p>
+
+                <p class="account-tab " data-target="#orders">
+                    <i class="fi fi-rs-shopping-bag"></i> Orders
+                </p>
+
+                <p class="account-tab " data-target="#update-profile">
+                    <i class="fi fi-rs-user"></i> Update Profile
+                </p>
+
+                <p class="account-tab " data-target="#address">
+                    <i class="fi fi-rs-marker"></i> My Adrress
+                </p>
+
+                <p class="account-tab " data-target="#change-password">
+                    <i class="fi fi-rs-user"></i> Change Password
+                </p>
+
+                <p class="account-tab">
+                    <i class="fi fi-rs-exit"></i> Logout
+                </p>
+
+              
+            </div>
+
+            <div class="tabs-content">
+                <div class="tab-content active-tab" content id="dashboard">
+                    <h3 class="tab-header">Hello Nigga!</h3>
+                    
+                    <div class="tab-body">
+                      <p class="tab-des">
+                        You are in your account dashboard it seems like you dont have anything here don't worry we are here to help you man and we'll give you a 5 dollars to buy some 
+                        snacks because here you can't buy nothing with 5 bucks
+                      </p>
+                    </div>
+                </div>
+
+                <div class="tab-content" content id="orders">
+                    <h3 class="tab-header">Your Orders</h3>
+
+                    <div class="tab-body">
+                        <table class="placed-order-table">
+                            <tr>
+                                <th>Orders</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th>Total</th>
+                                <th>Actions</th>
+                            </tr>
+
+                            <tr>
+                                <td>#1358</td>
+                                <td>October 15, 2021</td>
+                                <td>Proccecing</td>
+                                <td>$116.00</td>
+                                <td><a href="#" class="view-order">View</a></td>
+                            </tr>
+
+                            <tr>
+                                <td>#1897</td>
+                                <td>October 25, 2021</td>
+                                <td>Completed</td>
+                                <td>$253.00</td>
+                                <td><a href="#" class="view-order">View</a></td>
+                            </tr>
+
+                            <tr>
+                                <td>#2896</td>
+                                <td>May 25, 2022</td>
+                                <td>Completed</td>
+                                <td>$105.00</td>
+                                <td><a href="#" class="view-order">View</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="tab-content" content id="update-profile">
+                    <h3 class="tab-header">Update Profile</h3>
+
+                    <div class="tab-body">
+                        <form action="" class="form grid">
+                            <input type="text" placeholder="Username" class="form-input">
+
+                            <div class="form-btn">
+                                <button class="btn btn-md">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="tab-content" content id="address" >
+                    <h3 class="tab-header">Shipping Adrress</h3>
+
+                    <div class="tab-body">
+                        <address class="address" >
+                            12354 hay bla bla <br>
+                             89 business Spur,
+                             <br> 
+                             Sault ste. <br>
+                              Marie, Mi 49619 
+                        </address>
+                        <p class="city"> Los angelos.</p>
+                        <a href="#" class="edit">Edit</a>
+                    </div>
+                </div>
+
+                
+                <div class="tab-content" content id="change-password">
+                    <h3 class="tab-header">Change Password</h3>
+
+                    <div class="tab-body">
+                        <form action="" class="form grid">
+                            <input type="password" placeholder="Current Password" class="form-input">
+                            <input type="password" placeholder="New Password" class="form-input">
+                            <input type="password" placeholder="Confirm Password" class="form-input">
+                            
+
+                            <div class="form-btn">
+                                <button class="btn btn-md">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+    
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section ">
+        <div class="newsletter-container container grid">
+            <h3 class="newsletter-title flex">
+                <img src="../img/icon-email.svg" alt="" 
+                class="newsletter-icon">
+                  Sign up to Newsletter
+            </h3>
+                <p class="newsletter-des">
+                   ...and receive $10 coupon for first shopping 
+                </p>
+                <form action="" class="newsletter-form">
+                    <input type="text" placeholder="Enter your email" 
+                    class="newsletter-input">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+        </div>
+         </section>
+</main>
+
+   <!--=============== FOOTER ===============-->
+   <footer class="footer container">
+    <div class="footer-container grid">
+        <div class="footer-content">
+            <a href="index.html" class="footer-logo">
+                <img src="../img/logo2.png" alt="" class="footer-logo-img">
+            </a>
+
+            <h4 class="footer-subtitle">Contact</h4>
+
+            <p class="footer-des">
+                <span>Address:</span> 123-45 hay niggz No 565
+            </p>
+
+            <p class="footer-des">
+                <span>Phone:</span> (+212) - 7677 - 89335
+            </p>
+
+            <p class="footer-des">
+                <span>Hours:</span> kankhdmo dyamn mn 10.00 pm htal 12.00 am mohim marhba bikom f ay wa9t
+            </p>
+
+            <p class="footer-des">
+                <span>location:</span> we are currenctly in morocco
+            </p>
+
+            <div class="footer-social">
+                <h4 class="footer-subtitle">Follow Me</h4>
+
+                <div class="footer-social-links flex">
+                    <a href="">
+                        <img src="../img/icon-facebook.svg" alt="" class="footer-social-icon">
+                    </a>
+
+                    <a href="">
+                        <img src="../img/icon-instagram.svg" alt="" class="footer-social-icon">
+                    </a>
+
+                    <a href="">
+                        <img src="../img/icon-twitter.svg" alt="" class="footer-social-icon">
+                    </a>
+
+                    <a href="">
+                        <img src="../img/icon-pinterest.svg" alt="" class="footer-social-icon">
+                    </a>
+
+                    <a href="">
+                        <img src="../img/icon-youtube.svg" alt="" class="footer-social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <h3 class="footer-title">Address</h3>
+
+            <ul class="footer-links">
+                <li><a href="" class="footer-link">About Us</a></li>
+                <li><a href="" class="footer-link">Delivery Information</a></li>
+                <li><a href="" class="footer-link">Privacy Policy</a></li>
+                <li><a href="" class="footer-link">Terms & conditions</a></li>
+                <li><a href="" class="footer-link">Contact Us</a></li>
+                <li><a href="" class="footer-link">Support Center</a></li>
+
+            </ul>
+        </div>
+
+        <div class="footer-content">
+            <h3 class="footer-title">My Account</h3>
+
+            <ul class="footer-links">
+                <li><a href="" class="footer-link">Sign In</a></li>
+                <li><a href="" class="footer-link">view Cart</a></li>
+                <li><a href="" class="footer-link">My Wishlist</a></li>
+                <li><a href="" class="footer-link">Track My Order</a></li>
+                <li><a href="" class="footer-link">Help</a></li>
+                <li><a href="" class="footer-link">Order</a></li>
+
+            </ul>
+        </div>
+
+        <div class="footer-content">
+            <h3 class="footer-title">Secured Pyment Gateways</h3>
+
+            <img src="../img/payment-method.png" alt="" class="payment-img">
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p class="copyright">&copy; 2023 Dixie. All rights reserved</p>
+        <span class="designer">Designed by Hamzalegend </span>
+    </div>
+  </footer>
+  <!--=============== MAIN JS ===============-->
+<script src="../js's/script.js"></script>
+</body>
+</html>
